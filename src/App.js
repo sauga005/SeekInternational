@@ -24,7 +24,7 @@ function App() {
       <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/hel" element={<VisaGuidance />} />
+        <Route path="/visa_guidance" element={<VisaGuidance />} />
       </Routes>
     </Router>
       <Footer/>
