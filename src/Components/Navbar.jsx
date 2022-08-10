@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [nav_show, setNav_show] = useState("nav_element topnav hide_navb");
@@ -35,9 +36,10 @@ export const Navbar = () => {
         <span className="ThreeLineBar" onClick={() => setNav_show("nav_element topnav show_navb")}><i className="fa-solid fa-bars"></i></span>
         <div className={nav_show} id='myTopnav'>
           <div className="bg_opacity_on"></div>
+
           <ul>
               <li className='nav_togle'><span onClick={() => setNav_show("nav_element topnav hide_navb")}><i className="fa-solid fa-xmark"></i></span></li>
-              <li className='hov_nav'><a href="#" >Home</a></li>
+              <li className='hov_nav'><Link to="/visa_guidance" >Home</Link></li>
               <li className='about_h hov_nav'><a href="#">About <span className="float_right" onClick={() => SubMenuAbout ? setSubMenuAbout(false) : setSubMenuAbout(true)}><i className="fa-solid fa-angle-down"></i></span></a>
                 <div className={about_ss}>
                   <div className="sub_list about_i">
