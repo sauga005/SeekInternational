@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.mainBody{
+    width: 100%;
+    min-height: 100vh;
+    max-width: 1366px;
+    background: #fff;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    animation-name: mainfade;
+    animation-duration: 2s;
+}
+.text_fl p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.text_fl{
+    margin: auto;
+}
+.f_card01{
+    margin: 2%;
+    margin-top: 80px;
+}
+.img_fl{
+    position: relative;
+    display: inline;
+    padding: 5%;
+    max-width: 450px;
+    float: right;
+    margin: auto;
+    align-items: center;
+}
+.img_fl .imgMang{
+    width: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(2px 2px 3px rgb(0, 0, 0));
+}
+
+.imgCompo .imgC001{
+    position:absolute;
+    left: 5%;
+    bottom: 20%;
+    width: 20%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(-2px 2px 1px #2223);
+    animation-name: imgAnimate;
+    animation-duration: 3s;
+}
+.imgCompo .imgC002{
+    position:absolute;
+    left: 5%;
+    top: 20%;
+    width: 30%;
+    animation-name: imgAnimate2;
+    animation-duration: 3s;
+}
+.imgCompo .imgC003{
+    position:absolute;
+    right: 5%;
+    top: 40%;
+    width: 20%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(2px -2px 1px #2223);
+    animation-name: imgAnimate;
+    animation-duration: 3s;
+}
+.card1sto{
+    border: none;
+    margin-top: 10px;
+}
+.gradiant_btn{
+    background-image: linear-gradient(#f94d1c, #fd7526);
+    border: none;
+}
+.gradiant_btn:hover{
+    background-image: linear-gradient(#e03202, #eb5a06);
+    box-shadow: 2px 2px 3px #0005;
+    transform: scale(1.05);
+}
+
+.gradiant_btn_outline{
+    border: 2px solid #f94d1c !important;
+    background: #0000;
+    color: #f94d1c;
+    font-weight: 450;
+    border: none;
+}
+.gradiant_btn_outline:hover{
+    background: #0001;
+    color: #f94d1c;
+    font-weight: 500;
+    box-shadow: 2px 2px 3px #0005;
+    transform: scale(1.05);
+}
+@keyframes imgAnimate {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 20%;
+    }
+}
+@keyframes imgAnimate2 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+@keyframes mainfade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .flexcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 22%;
+    align-items: baseline;
+    height: 250px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    box-shadow: 2px 2px 5px #0003;
+    padding: 30px 30px;
+    text-align: center;
+    transition: 0.6 !important;
+    background: rgba(34, 34, 34, 0.03);
+  }
+  .flexcard:hover {
+    box-shadow: 1px 1px 10px #0006;
+    transform: scale(1.02) !important;
+  }
+  .flexcard:hover img{
+    transition: 1s;
+    border-radius: 50px;
+  }
+  
+  .flexcardTitle {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .flexcardText {
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-weight: 300;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+  }
+  .flexcard img{
+    transition: 1s;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .whyWe{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 0;
+  }
+  /* RESPONSİVE */
+  .secondCard{
+    border: 0px;
+    padding: 20px;
+  }
+  .txt_center_m{
+    margin: auto;
+  }
+  .secondCard img{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(-2px 2px 5px #2225);
+  }
+  .freqAskBtn_1{
+    width: 96%;
+    padding: 5px;
+    margin: 15px auto ;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.223);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.100);
+  }
+  .freqAskBtn_1 h2 button{
+    font-size: 20px;
+  }
+
+  .freqAskBtn_1 h2 button:focus{
+    box-shadow: none;
+  }
+  .Freq_title_txt{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .containerForPages{
+    margin: 100px 0px;
+  }
+  .position-relative{
+    margin: auto;
+  }
+  .position-relative img{
+    width: 100%;
+  }
+  .margin_autoP{
+    margin: auto;
+  }
+  .cardZag_COntainer h5{
+    font-size: 30px;
+  }
+  .cardZag_COntainer p{
+    font-size: 20px;
+  }
+  .cardZag_COntainer hr{
+    width: 100px;
+  }
+
+
+  
+
+  @media only screen and (max-width: 991px) {
+    .cardZag_COntainer h5{
+      text-align: center;
+    }
+    .cardZag_COntainer p{
+      text-align: center;
+    }
+    .cardZag_COntainer hr{
+      margin: auto;
+    }
+    .cardZag_COntainer{
+      padding: 80px 0;
+    }
+  }
+  
+@media only screen and (max-width: 830px) {
+  .flexcard {
+    width: 45%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .flexcard {
+    width: 90%;
+    height: 300px;
+  }
+  .whyWe{
+      padding: 20px;
+      font-size: 30px;
+      font-weight: 500;
+    }
+}  
+
+@media screen and (max-width: 767px) {
+    .imgCompo .imgC002{
+        left: -5%;
+    }
+    .imgCompo .imgC001{
+        left: 2%;
+    }
+    .imgCompo .imgC003{
+        right: 2%;
+    }
+    .cardZag_COntainer{
+      padding: 30px 0;
+    }
+}

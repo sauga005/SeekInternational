@@ -1,0 +1,270 @@
+.logo{
+    position: relative;
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    z-index: -2;
+}
+.logo:hover{
+    color: #b9b9b9;
+}
+.centerixe{
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+    display: flex;
+    justify-content: center;
+}
+.NavbarHeader{
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    margin: auto;
+    max-width: 1366px;
+}
+.NavbarHeader ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.NavbarHeader ul li{
+    display: block;
+    float: left;
+    padding-top: 20px !important;
+    padding: 0 10px;
+}
+.NavbarHeader ul li a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    font-weight: 400px;
+    transition: 0.6s;
+}
+.NavbarHeader ul li a:hover{
+    transition: 0.2s;
+    color: #f94d1c;
+}
+.NavbarHeader .logo_img{
+    width: 130px;
+}
+.ThreeLineBar{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    float: right;
+    color: rgb(49, 49, 49);
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+.sticky_nav{
+    background-color: #010834;
+    padding: 0px 30px;
+    position: fixed;
+}
+.sticky_nav .logo_img{
+    width: 120px;
+    padding: 5px;
+}
+.sticky_nav ul li a{
+    color: #fff;
+}
+.sticky_nav .ThreeLineBar{
+    color: #fff;
+}
+.sub_list{
+    position: absolute;
+    background: #fff;
+    width: 180px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: -2px 2px 10px #0005;
+    line-height: 13px;
+}
+.sub_list a{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 13px;
+}    
+.sub_list ul li a:hover{
+    color: #f94d1c !important;
+}  
+
+.sub_list li{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.sub_list ul{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.about_i{
+    display: none;
+    z-index: 500000;
+}
+.about_h:hover .about_i{
+    display: block;
+}
+
+.coaching_i{
+    display: none;
+    z-index: 500000;
+}
+.coaching_h:hover .coaching_i{
+    display: block;
+}
+
+.service_i{
+    display: none;
+    z-index: 500000;
+}
+.service_h:hover .service_i{
+    display: block;
+}
+.btn_contactsus{
+    background: #f94d1c;
+    color: #fff;
+    z-index: 500000;
+}
+.btn_contactsus:hover {
+    background: #f94d1cdd;
+    border: 1px solid #f94d1cdd;
+    color: #fff;
+}
+.NavbarHeader ul .nav_togle{
+    display: none;
+}
+@media screen and (min-width: 1000px){
+    .sub_list a{
+        color: #233857 !important;
+    }
+}
+.go_TopBtn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 99999999999;
+    transition: 0.6s;
+    bottom: -30%;
+    background-color: #f94d1c;
+
+}
+.go_TopBtn:focus{
+    background-color: #f94d1c;
+    border: none;
+    box-shadow: none;
+}
+.go_TopBtn:hover {
+    background-color: #a72907f6;
+}
+.sticky_topBtn{
+    display: block;
+    bottom: 0%;
+}
+@media screen and (max-width: 970px) {
+    .nav_togle span{
+        cursor: pointer;
+        color: #fff;
+    }
+    .NavbarHeader ul li a{
+        color: #fff;
+    }
+    .NavbarHeader{
+        display: block;
+    }
+    .logo{
+        display: block;
+    }
+    .NavbarHeader ul{
+        display: block;
+    }
+    .NavbarHeader ul li{
+        display: block;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .nav_element{
+        position: absolute;
+        width: 70%;
+        max-width: 300px;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background-color: #010834;
+        overflow: auto;
+    }
+    .sub_list{
+        position: unset;
+        background: #fff0;
+        box-shadow: none;
+        color: #fff !important;
+        display: block;
+    }
+    .float_right{
+        float: right;
+    }
+    .NavbarHeader ul .nav_togle{
+        display: block;
+        float: right;
+        text-align: right;
+        font-size: 30px;
+        margin: -10px 10px;
+    }
+    .responsive{
+        display: none !important;
+    }
+    .hide_navb{
+        display: none;
+        transition: 2s;
+    }
+    .show_navb{
+        display: block;
+    }
+    .ThreeLineBar{
+        display: block;
+    }
+    .bg_opacity_on{
+        background: rgba(0, 0, 0, 0.685);
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+    }
+    .HideSub{
+        display: none;
+    }
+    .ShowSub{
+        display: box;
+    }
+}
+
+/* .sub_list ul{
+    display: block;
+    position: absolute;
+    width: 100px;
+    background: #fff;
+    line-height: 5px;
+    padding: 0;
+    margin: 0;
+} */
