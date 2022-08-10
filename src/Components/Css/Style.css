@@ -97,6 +97,8 @@
     box-shadow: 2px 2px 3px #0005;
     transform: scale(1.05);
 }
+
+
 @keyframes imgAnimate {
     from {
         width: 0;
@@ -224,7 +226,7 @@
   }
 
   .containerForPages{
-    margin: 100px 0px;
+    margin-bottom: 100px;
   }
   .position-relative{
     margin: auto;
@@ -244,6 +246,70 @@
   .cardZag_COntainer hr{
     width: 100px;
   }
+  .spaceToph{
+    border: none;
+      margin-top: 80px;
+      border-radius: 0px;
+      margin-bottom: 80px;
+
+  }
+  .spaceToph img{
+    max-height: 300px;
+    border: none;
+    object-fit: cover;
+    border-radius: 0px;
+  }
+  .spaceToph .pageContName{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.432);
+    padding: 20px 0;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 0;
+    margin: auto;
+    width: 96%;
+    margin: 2%;
+  }
+  .spaceToph h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .backGcard{
+    padding: 10px;
+    border: none;
+    margin: 30px 0;
+  }
+  .backGcard p{
+    font-size: 18px;
+    width: 100%;
+  }
+  .btn-sm{
+    background: #f94d1c;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .Centerdiv{
+    margin: auto;
+  }
+  .borderbotm{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.171);
+  }
+  .light_dark{
+    background-color: rgba(250, 250, 250);
+    width: 100%;
+    padding: 5%;
+    margin-top: 10px;
+  }
+
+  .light_light{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 5%;
+    margin-top: 10px;
+  }
 
 
   
@@ -261,6 +327,7 @@
     .cardZag_COntainer{
       padding: 80px 0;
     }
+
   }
   
 @media only screen and (max-width: 830px) {
@@ -279,6 +346,18 @@
       padding: 20px;
       font-size: 30px;
       font-weight: 500;
+    }
+    .spaceToph .pageContName{
+      top: 30%;
+      left: 0;
+    }
+    .spaceToph h4{
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .spaceToph h5{
+      font-size: 15px;
+      margin-bottom: 10px;
     }
 }  
 

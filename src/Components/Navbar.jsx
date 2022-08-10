@@ -36,10 +36,9 @@ export const Navbar = () => {
         <span className="ThreeLineBar" onClick={() => setNav_show("nav_element topnav show_navb")}><i className="fa-solid fa-bars"></i></span>
         <div className={nav_show} id='myTopnav'>
           <div className="bg_opacity_on"></div>
-
           <ul>
               <li className='nav_togle'><span onClick={() => setNav_show("nav_element topnav hide_navb")}><i className="fa-solid fa-xmark"></i></span></li>
-              <li className='hov_nav'><Link to="/visa_guidance" >Home</Link></li>
+              <li className='hov_nav'><Link to="/" >Home</Link></li>
               <li className='about_h hov_nav'><a href="#">About <span className="float_right" onClick={() => SubMenuAbout ? setSubMenuAbout(false) : setSubMenuAbout(true)}><i className="fa-solid fa-angle-down"></i></span></a>
                 <div className={about_ss}>
                   <div className="sub_list about_i">
@@ -53,28 +52,26 @@ export const Navbar = () => {
                   </div>
                 </div>
               </li>
-              <li className='service_h hov_nav'><a href="#">Services <span className="float_right" onClick={() => SubMenuServices ? setSubMenuServices(false) : setSubMenuServices(true)}><i className="fa-solid fa-angle-down"></i></span></a>
+              <li className='service_h hov_nav'><Link to="/services">Services <span className="float_right" onClick={() => SubMenuServices ? setSubMenuServices(false) : setSubMenuServices(true)}><i className="fa-solid fa-angle-down"></i></span></Link>
               <div className={Services_ss}>
                 <div className="sub_list service_i">
                   <ul>
                     <li><a href="#">English Preparation</a></li>
                     <li><a href="#">Country Counselling</a></li>
                     <li><a href="#">Application Procedures </a></li>
-                    <li><a href="#">Visa Guidance</a></li>
+                    <li><Link to="/visa_guidance">Visa Guidance</Link></li>
                   </ul>
                 </div>
                 </div>
               </li>
-              <li className='coaching_h hov_nav'><a href="#">Coaching <span className="float_right" onClick={() => SubMenuCoaching ? setSubMenuCoaching(false) : setSubMenuCoaching(true)}><i className="fa-solid fa-angle-down"></i></span></a>
+              <li className='coaching_h hov_nav'><a href="#">University partners  <span className="float_right" onClick={() => SubMenuCoaching ? setSubMenuCoaching(false) : setSubMenuCoaching(true)}><i className="fa-solid fa-angle-down"></i></span></a>
                 <div className={Coaching_ss}>
                 <div className="sub_list coaching_i">
                   <ul>
-                    <li><a href="#">Our Coaching</a></li>
-                    <li><a href="#">PTE Coaching</a></li>
-                    <li><a href="#">Take IELTS</a></li>
-                    <li><a href="#">TOEFL</a></li>
-                    <li><a href="#">SAT Coaching</a></li>
-                    <li><a href="#">Skill Exam</a></li>
+                    <li><a href="#">Australia providers</a></li>
+                    <li><a href="#">USA providers</a></li>
+                    <li><a href="#">Canada Providers</a></li>
+                    <li><a href="#">UK providers</a></li>
                   </ul>
                 </div>
                 </div>
