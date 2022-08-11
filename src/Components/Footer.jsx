@@ -6,7 +6,7 @@ export const Footer = () => {
     <footer className="footer" id="footer">
 
     <span className="col">
-      <h3 className="col-title">About</h3>
+      <h3 className="col-title">Abouts</h3>
       <nav className="col-list">
         <ul>
         <li><a href="#">Our Story</a></li>

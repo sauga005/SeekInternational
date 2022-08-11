@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const CanadaProviders = (props) => {
+export const OurStory = (props) => {
   return (
     <>
     <div className="card text-bg-dark spaceToph">
-    <img src="images/jason-hafso-C2keINMOhIE-unsplash.jpg" className="card-img" alt="..."/>
+    <img src="images/ugo-mendes-donelli-e4FbcDByhjI-unsplash.jpg" className="card-img" alt="..."/>
     <div className="card-img-overlay">
         <div className="pageContName">
         <h4 className="card-title">{props.pageTitle}</h4>
@@ -17,7 +17,7 @@ export const CanadaProviders = (props) => {
     <div className="container-sm backPPPP">
             
             <div className="imgContainerPage">
-                <img src="images/ahmed-abbas-rL-UGnNVy-Q-unsplash.jpg" alt="" />
+                <img src="images/dariusz-sankowski-ABAmxzlot8E-unsplash.jpg" alt="" />
             </div>
             <div className="TextContainerForPages">
                 <h3>Heading</h3>

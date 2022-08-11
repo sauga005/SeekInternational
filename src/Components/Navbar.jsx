@@ -32,22 +32,22 @@ export const Navbar = () => {
     <>
     <div className="centerixe">
     <nav id="navheader" className='NavbarHeader'>
-        <span className="logo"><img  className="logo_img" src="images/logo1(t).svg" alt="" /></span>
+    <Link to="/"><span className="logo"><img  className="logo_img" src="images/logo1(t).svg" alt="" /></span></Link>
         <span className="ThreeLineBar" onClick={() => setNav_show("nav_element topnav show_navb")}><i className="fa-solid fa-bars"></i></span>
         <div className={nav_show} id='myTopnav'>
           <div className="bg_opacity_on" onClick={() => setNav_show("nav_element topnav hide_navb")}></div>
           <ul>
               <li className='nav_togle'><span onClick={() => setNav_show("nav_element topnav hide_navb")}><i className="fa-solid fa-xmark"></i></span></li>
               <li className='hov_nav'><Link to="/" >Home</Link></li>
-              <li className='about_h hov_nav'><a href="#">About <span className="float_right" onClick={() => SubMenuAbout ? setSubMenuAbout(false) : setSubMenuAbout(true)}><i className="fa-solid fa-angle-down"></i></span></a>
+              <li className='about_h hov_nav'><Link to="/abouts">Abouts <span className="float_right" onClick={() => SubMenuAbout ? setSubMenuAbout(false) : setSubMenuAbout(true)}><i className="fa-solid fa-angle-down"></i></span></Link>
                 <div className={about_ss}>
                   <div className="sub_list about_i">
                     <ul>
-                      <li><a href="#">Our Story</a></li>
-                      <li><a href="#">About Abroad Studies</a></li>
-                      <li><a href="#">Why Seek Education Services</a></li>
-                      <li><a href="#">Industry Partnerships</a></li>
-                      <li><a href="#">Our Team</a></li>
+                      <li><Link to="/our_story">Our Story</Link></li>
+                      <li><Link to="/about_abroad_studies">About Abroad Studies</Link></li>
+                      <li><Link to="/why_seek_education_services">Why Seek Education Services</Link></li>
+                      <li><Link to="/industry_partnerships">Industry Partnerships</Link></li>
+                      <li><Link to="/our_team">Our Team</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ export const Navbar = () => {
                 </div>
               </li>
               <li><Link to="/gallery">Gallery</Link></li>
-              <li><a href="#"><button className="btn btn_contactsus">Contacts us</button></a></li>
+              <li><Link to="/contacts"><button className="btn btn_contactsus">Contacts us</button></Link></li>
           </ul>                 
         </div>
     </nav>

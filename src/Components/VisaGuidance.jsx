@@ -5,12 +5,12 @@ export const VisaGuidance = (props) => {
   return (
     <>
     
-    <div class="card text-bg-dark spaceToph">
-        <img src="images/mohd-azrin-Vb8237UGAmI-unsplash.jpg" class="card-img" alt="..."/>
-        <div class="card-img-overlay">
+    <div className="card text-bg-dark spaceToph">
+        <img src="images/mohd-azrin-Vb8237UGAmI-unsplash.jpg" className="card-img" alt="..."/>
+        <div className="card-img-overlay">
             <div className="pageContName">
-            <h4 class="card-title">{props.pageTitle}</h4>
-            <h5 class="card-title"><i class="fa-solid fa-house"></i> {props.LocationCom}</h5>
+            <h4 className="card-title">{props.pageTitle}</h4>
+            <h5 className="card-title"><i className="fa-solid fa-house"></i> {props.LocationCom}</h5>
             </div>
         </div>
         </div>
@@ -18,18 +18,18 @@ export const VisaGuidance = (props) => {
     {/* <!-- start event block --> */}
 
 <div className="light_light">
-    <div data-aos="fade-up-right" data-aos-anchor-placement="top-bottom" class="row align-items-center event-block no-gutters margin-40px-bottom">
-        <div class="col-lg-7 order-2 order-lg-1 margin_autoP">
-            <div class="padding-60px-lr cardZag_COntainer md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
-                <h5 class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
+    <div data-aos="fade-up-right" data-aos-anchor-placement="top-bottom" className="row align-items-center event-block no-gutters margin-40px-bottom">
+        <div className="col-lg-7 order-2 order-lg-1 margin_autoP">
+            <div className="padding-60px-lr cardZag_COntainer md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
+                <h5 className="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
                     Mock tests
                     <hr />
                 </h5>
                 <p>Welcome to NIEC’s mocktest tests for TOEFL, IELTS, PTE, SAT 1, ACT, GRE and GMAT</p>
             </div>
         </div>
-        <div class="col-lg-5 order-1 order-lg-2">
-            <div class="position-relative ">
+        <div className="col-lg-5 order-1 order-lg-2">
+            <div className="position-relative ">
                 <img src="images/ben-mullins-oXV3bzR7jxI-unsplash.jpg" alt=""/>
             </div>
         </div>
@@ -38,15 +38,15 @@ export const VisaGuidance = (props) => {
 
     
 <div className="light_dark">
-    <div data-aos="fade-up-left" data-aos-anchor-placement="center-bottom" class="row align-items-center event-block no-gutters margin-40px-bottom">
-        <div class="col-lg-5 col-sm-12">
-            <div class="position-relative">
+    <div data-aos="fade-up-left" data-aos-anchor-placement="center-bottom" className="row align-items-center event-block no-gutters margin-40px-bottom">
+        <div className="col-lg-5 col-sm-12">
+            <div className="position-relative">
                 <img src="images/school-supplies-g91443fa5e_1280.jpg" alt=""/>
             </div>
         </div>
-        <div class="col-lg-7 col-sm-12">
-            <div class="padding-60px-lr cardZag_COntainer md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
-                <h5 class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
+        <div className="col-lg-7 col-sm-12">
+            <div className="padding-60px-lr cardZag_COntainer md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
+                <h5 className="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
                 Provided Materials
 
                     <hr />
@@ -59,18 +59,18 @@ export const VisaGuidance = (props) => {
 
 
 <div className="light_light">
-    <div data-aos="fade-up-right" data-aos-anchor-placement="top-bottom" class="row align-items-center event-block no-gutters margin-40px-bottom">
-        <div class="col-lg-7 order-2 order-lg-1 margin_autoP">
-            <div class="padding-60px-lr cardZag_COntainer md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
-                <h5 class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
+    <div data-aos="fade-up-right" data-aos-anchor-placement="top-bottom" className="row align-items-center event-block no-gutters margin-40px-bottom">
+        <div className="col-lg-7 order-2 order-lg-1 margin_autoP">
+            <div className="padding-60px-lr cardZag_COntainer md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
+                <h5 className="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
                     Mock tests
                     <hr />
                 </h5>
                 <p>Welcome to NIEC’s mocktest tests for TOEFL, IELTS, PTE, SAT 1, ACT, GRE and GMAT</p>
             </div>
         </div>
-        <div class="col-lg-5 order-1 order-lg-2">
-            <div class="position-relative ">
+        <div className="col-lg-5 order-1 order-lg-2">
+            <div className="position-relative ">
                 <img src="images/ben-mullins-oXV3bzR7jxI-unsplash.jpg" alt=""/>
             </div>
         </div>
@@ -79,15 +79,15 @@ export const VisaGuidance = (props) => {
 
     
 <div className="light_dark">
-    <div data-aos="fade-up-left" data-aos-anchor-placement="center-bottom" class="row align-items-center event-block no-gutters margin-40px-bottom">
-        <div class="col-lg-5 col-sm-12">
-            <div class="position-relative">
+    <div data-aos="fade-up-left" data-aos-anchor-placement="center-bottom" className="row align-items-center event-block no-gutters margin-40px-bottom">
+        <div className="col-lg-5 col-sm-12">
+            <div className="position-relative">
                 <img src="images/school-supplies-g91443fa5e_1280.jpg" alt=""/>
             </div>
         </div>
-        <div class="col-lg-7 col-sm-12">
-            <div class="padding-60px-lr cardZag_COntainer md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
-                <h5 class="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
+        <div className="col-lg-7 col-sm-12">
+            <div className="padding-60px-lr cardZag_COntainer md-padding-50px-lr sm-padding-30px-all xs-padding-25px-all">
+                <h5 className="margin-15px-bottom md-margin-10px-bottom font-size22 md-font-size20 xs-font-size18 font-weight-500">
                 Provided Materials
 
                     <hr />
