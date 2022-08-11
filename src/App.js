@@ -2,6 +2,7 @@ import './App.css';
 import './Components/Css/Navbar.css';
 import './Components/Css/Style.css';
 import './Components/Css/Footer.css';
+import './Components/Css/Gallery.css';
 import { Footer } from './Components/Footer';
 import { Home } from './Components/Home';
 import { Navbar } from './Components/Navbar';
@@ -19,6 +20,7 @@ import ScrollToTop from './Components/Scroll _top';
 import { EnglishPreparation } from './Components/EnglishPreparation';
 import { CountryCounselling } from './Components/CountryCounselling';
 import { ApplicationProcedures } from './Components/ApplicationProcedures';
+import { Gallery } from './Components/Gallery';
 // ..
 AOS.init();
 
@@ -34,6 +36,7 @@ function App() {
         <Route path="/english_preparation" element={<EnglishPreparation pageTitle="English Preparation" LocationCom="Home > Services > English Preparation"/>} />
         <Route path="/country_counselling" element={<CountryCounselling pageTitle="Country Counselling" LocationCom="Home > Services > Country Counselling"/>} />
         <Route path="/application_procedures" element={<ApplicationProcedures pageTitle="Application Procedures" LocationCom="Home > Services > Application Procedures"/>} />
+        <Route path="/gallery" element={<Gallery pageTitle="Gallery" LocationCom="Home > Gallery"/>} />
         <Route path="/services" element={<Services pageTitle="Services" LocationCom="Home > Services"/>} />
       </Routes>
       <Footer/>

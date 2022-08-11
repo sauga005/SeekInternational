@@ -1,0 +1,3 @@
+npm instal
+npm install react-router-doms
+npm install aos

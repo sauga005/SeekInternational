@@ -35,7 +35,7 @@ export const Navbar = () => {
         <span className="logo"><img  className="logo_img" src="images/logo1(t).svg" alt="" /></span>
         <span className="ThreeLineBar" onClick={() => setNav_show("nav_element topnav show_navb")}><i className="fa-solid fa-bars"></i></span>
         <div className={nav_show} id='myTopnav'>
-          <div className="bg_opacity_on"></div>
+          <div className="bg_opacity_on" onClick={() => setNav_show("nav_element topnav hide_navb")}></div>
           <ul>
               <li className='nav_togle'><span onClick={() => setNav_show("nav_element topnav hide_navb")}><i className="fa-solid fa-xmark"></i></span></li>
               <li className='hov_nav'><Link to="/" >Home</Link></li>
@@ -56,9 +56,9 @@ export const Navbar = () => {
               <div className={Services_ss}>
                 <div className="sub_list service_i">
                   <ul>
-                    <li><a href="#">English Preparation</a></li>
-                    <li><a href="#">Country Counselling</a></li>
-                    <li><a href="#">Application Procedures </a></li>
+                    <li><Link to="/english_preparation">English Preparation</Link></li>
+                    <li><Link to="/country_counselling">Country Counselling</Link></li>
+                    <li><Link to="/application_procedures">Application Procedures </Link></li>
                     <li><Link to="/visa_guidance">Visa Guidance</Link></li>
                   </ul>
                 </div>
@@ -76,7 +76,7 @@ export const Navbar = () => {
                 </div>
                 </div>
               </li>
-              <li><a href="#">Gallery</a></li>
+              <li><Link to="/gallery">Gallery</Link></li>
               <li><a href="#"><button className="btn btn_contactsus">Contacts us</button></a></li>
           </ul>                 
         </div>
