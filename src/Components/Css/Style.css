@@ -310,6 +310,15 @@
     padding: 5%;
     margin-top: 10px;
   }
+  .Documentations{
+    width: 96%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: auto;
+  }
+  .Documentations h2{
+    text-align: center;
+  }
 
 
   
