@@ -319,6 +319,26 @@
   .Documentations h2{
     text-align: center;
   }
+  .backPPPP{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+  }
+  .imgContainerPage{
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    padding: 1px;
+    border-radius: 9px;
+  }
+  .imgContainerPage img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .TextContainerForPages{
+    margin-top: 20px;
+  }
+  .TextContainerForPages p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
 
   

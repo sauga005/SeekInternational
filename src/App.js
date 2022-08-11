@@ -21,6 +21,11 @@ import { EnglishPreparation } from './Components/EnglishPreparation';
 import { CountryCounselling } from './Components/CountryCounselling';
 import { ApplicationProcedures } from './Components/ApplicationProcedures';
 import { Gallery } from './Components/Gallery';
+import { UniversityPartners } from './Components/UniversityPartners'
+import { AustraliaProviders } from './Components/AustraliaProviders'
+import { USAProviders } from './Components/USAProviders'
+import { CanadaProviders } from './Components/CanadaProviders'
+import { UKProviders } from './Components/UKProviders'
 // ..
 AOS.init();
 
@@ -38,9 +43,17 @@ function App() {
         <Route path="/application_procedures" element={<ApplicationProcedures pageTitle="Application Procedures" LocationCom="Home > Services > Application Procedures"/>} />
         <Route path="/gallery" element={<Gallery pageTitle="Gallery" LocationCom="Home > Gallery"/>} />
         <Route path="/services" element={<Services pageTitle="Services" LocationCom="Home > Services"/>} />
+
+        <Route path="/university" element={<UniversityPartners pageTitle="University" LocationCom="Home > University Partners"/>} />
+        <Route path="/australia_providers" element={<AustraliaProviders pageTitle="Australia Providers" LocationCom="Home > Australia Providers"/>} />
+        <Route path="/usa_providers" element={<USAProviders pageTitle="USA Providers" LocationCom="Home > USA Providers"/>} />
+        <Route path="/canada_providers" element={<CanadaProviders pageTitle="Canada Providers" LocationCom="Home > Canada Providers"/>} />
+        <Route path="/uk_providers" element={<UKProviders pageTitle="UK Providers" LocationCom="Home > UK Providers"/>} />
+        
       </Routes>
       <Footer/>
     </Router>
+    
     </div>
   );
 }

@@ -64,14 +64,14 @@ export const Navbar = () => {
                 </div>
                 </div>
               </li>
-              <li className='coaching_h hov_nav'><a href="#">University partners  <span className="float_right" onClick={() => SubMenuCoaching ? setSubMenuCoaching(false) : setSubMenuCoaching(true)}><i className="fa-solid fa-angle-down"></i></span></a>
+              <li className='coaching_h hov_nav'><Link to="/university">University partners  <span className="float_right" onClick={() => SubMenuCoaching ? setSubMenuCoaching(false) : setSubMenuCoaching(true)}><i className="fa-solid fa-angle-down"></i></span></Link>
                 <div className={Coaching_ss}>
                 <div className="sub_list coaching_i">
                   <ul>
-                    <li><a href="#">Australia providers</a></li>
-                    <li><a href="#">USA providers</a></li>
-                    <li><a href="#">Canada Providers</a></li>
-                    <li><a href="#">UK providers</a></li>
+                    <li><Link to="australia_providers">Australia providers</Link></li>
+                    <li><Link to="/usa_providers">USA providers</Link></li>
+                    <li><Link to="/canada_providers">Canada Providers</Link></li>
+                    <li><Link to="/uk_providers">UK providers</Link></li>
                   </ul>
                 </div>
                 </div>

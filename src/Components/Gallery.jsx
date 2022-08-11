@@ -30,7 +30,7 @@ export const Gallery = (props) => {
         <div class="card-img-overlay">
             <div className="pageContName">
             <h4 class="card-title">{props.pageTitle}</h4>
-            <h5 class="card-title">{props.LocationCom}</h5>
+            <h5 class="card-title"><i class="fa-solid fa-house"></i> {props.LocationCom}</h5>
             </div>
         </div>
         </div>
