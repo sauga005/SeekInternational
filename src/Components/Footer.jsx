@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -8,41 +9,40 @@ export const Footer = () => {
     <span className="col">
       <h3 className="col-title">Abouts</h3>
       <nav className="col-list">
-        <ul>
-        <li><a href="#">Our Story</a></li>
-        <li><a href="#">About Abroad Studies</a></li>
-        <li><a href="#">Why Seek Education Services</a></li>
-        <li><a href="#">Industry Partnerships</a></li>
-        <li><a href="#">Our Team</a></li>
-        </ul>
+      <ul>
+        <li><Link to="/our_story">Our Story</Link></li>
+        <li><Link to="/about_abroad_studies">About Abroad Studies</Link></li>
+        <li><Link to="/why_seek_education_services">Why Seek Education Services</Link></li>
+        <li><Link to="/industry_partnerships">Industry Partnerships</Link></li>
+        <li><Link to="/our_team">Our Team</Link></li>
+      </ul>
       </nav>
     </span>
   
-    <span className="col">
-      <h3 className="col-title">Coaching</h3>
-      <nav className="col-list">
-        <ul>
-        <li><a href="#">Our Coaching</a></li>
-        <li><a href="#">PTE Coaching</a></li>
-        <li><a href="#">Take IELTS</a></li>
-        <li><a href="#">TOEFL</a></li>
-        <li><a href="#">SAT Coaching</a></li>
-        <li><a href="#">Skill Exam</a></li>
-        </ul>
-      </nav>
-    </span>
+    
   
     <span className="col">
       <h3 className="col-title">Services</h3>
       <nav className="col-list">
-        <ul>
-        <li><a href="#">Student Visa</a></li>
-        <li><a href="#">Immigration Visa</a></li>
-        <li><a href="#">Tourist Visa</a></li>
-        <li><a href="#">Diplomatic Visa</a></li>
-        <li><a href="#">Business Visa</a></li>
-        <li><a href="#">Transit Visa</a></li>
-        </ul>
+      <ul>
+        <li><Link to="/english_preparation">English Preparation</Link></li>
+        <li><Link to="/country_counselling">Country Counselling</Link></li>
+        <li><Link to="/application_procedures">Application Procedures </Link></li>
+        <li><Link to="/visa_guidance">Visa Guidance</Link></li>
+      </ul>
+      </nav>
+    </span>
+
+
+    <span className="col">
+      <h3 className="col-title">University partners</h3>
+      <nav className="col-list">
+      <ul>
+        <li><Link to="australia_providers">Australia providers</Link></li>
+        <li><Link to="/usa_providers">USA providers</Link></li>
+        <li><Link to="/canada_providers">Canada Providers</Link></li>
+        <li><Link to="/uk_providers">UK providers</Link></li>
+      </ul>
       </nav>
     </span>
   
@@ -50,7 +50,7 @@ export const Footer = () => {
       <div className="subscribe-form-holder">
         <h3 className="form-title">SEEk <br/> INTERNATIONAL</h3>
         <form action="#" className="subscribe-form">
-         <button type="submit" className="subscribe-btn">Contacts Us</button>
+        <Link to="/contacts"><button type="submit" className="subscribe-btn">Contacts Us</button></Link>
         </form>
       </div>
       <div className="social-media">
